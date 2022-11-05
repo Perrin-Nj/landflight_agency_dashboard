@@ -41,7 +41,7 @@ ThemeData lightTheme() {
   final ThemeData lightTheme = ThemeData.light();
   return lightTheme.copyWith(
     primaryColor: Colors.black87,
-    secondaryHeaderColor: const Color.fromARGB(100, 217, 217, 217),
+    secondaryHeaderColor: Color.fromARGB(208, 233, 230, 230),
     scaffoldBackgroundColor: Colors.black87,
     splashColor: const Color.fromARGB(255, 82, 0, 154),
     brightness: Brightness.light,
@@ -51,9 +51,9 @@ ThemeData lightTheme() {
 
     textTheme: const TextTheme(
       headline1: TextStyle(
-        fontSize: 20,
-        fontWeight: FontWeight.bold,
-        color: Color.fromARGB(255, 255, 255, 255),
+        fontSize: 40,
+        fontWeight: FontWeight.w900,
+        color: Color.fromARGB(255, 0, 0, 0),
       ),
       headline6: TextStyle(
         fontSize: 15.0,
